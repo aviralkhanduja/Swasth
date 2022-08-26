@@ -1,0 +1,47 @@
+#app-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px;
+}
+#nav-left{
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-left h3{
+    color: rgb(117,117,117);
+    margin: 0;
+}
+#nav-left img{
+    width: 2rem;
+    height: 2rem;
+}
+#nav-right{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+#nav-right a{
+    text-decoration: none;
+    border: none;
+    padding: 6px 8px;
+    color:rgb(253, 97, 97);
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+#nav-right a:hover{
+    color:rgb(255, 0, 0);
+}
+#nav-right a.active_class{
+    background-color:rgb(253, 97, 97);
+    color: white;
+}
+
+

@@ -1,0 +1,40 @@
+#instructions{
+    width: 79%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.instructions-list {
+    width: 49%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+.instruction {
+    margin: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.instructions-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pose-demo-img {
+    height: 400px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+.start-yoga{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(144, 141, 141);
+    border-radius: 4px;
+}
+.start-yoga:hover{
+    background-color: rgb(88, 87, 87);
+}
