@@ -1,0 +1,64 @@
+.starting-contdown {
+    margin: auto;
+    border: 10px solid rgba(125, 125, 125, 0.5);
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+    top: 45%;
+}
+.starting-contdown h1 {
+    color: white;
+}
+.pose-img {
+    position: absolute;
+    right: 120px;
+    top: 130px;
+    width: 500px;
+    aspect-ratio: 1.04;
+}
+
+.performance-container {
+    margin-top: 2rem;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 150px;
+}
+
+
+.pose-performance {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.pose-performance h4 {
+    color: rgba(0,0,0,0.7);
+}
+
+#webcam {
+    transform: rotateY(180deg);
+}
+
+#my-canvas {
+    transform: rotateY(180deg);
+}
+#yoga{
+    display: flex;
+    justify-content: space-between;
+}
+.stop-yoga{
+    position: absolute;
+    top: 640px;
+    left: 50%;
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(144, 141, 141);
+    border-radius: 4px;
+}
+.stop-yoga:hover{
+    background-color: rgb(88, 87, 87);
+}

@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: rgb(226,229,235);
+  height: 100%;
+  margin: 0;
+}
+input:focus,textarea:focus{
+  outline: none;
+}
+

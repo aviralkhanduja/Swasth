@@ -1,0 +1,13 @@
+#login-google{
+    width:12rem;
+    height:3rem;
+    margin:auto;
+    background: url("../assets/btn_google_signin_dark_normal_web@2x.png") no-repeat;
+    margin-bottom:6px;
+    background-size: cover;
+}
+#login-google:hover{
+    background: url("../assets/btn_google_signin_dark_focus_web@2x.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
